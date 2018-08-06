@@ -65,6 +65,18 @@ module.exports = function(sequelize, DataTypes){
             validate: {
                 allowNull: false,
             }
+        },
+        description: {
+            type: DataTypes.STRING,
+            validate: {
+                allowNull: false,
+            }
+        },
+        link: {
+            type: DataTypes.STRING,
+            validate: {
+                allowNull: false,
+            }
         }
     });
     return Portfolio;
