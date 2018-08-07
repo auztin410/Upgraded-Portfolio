@@ -3,3 +3,19 @@
     grid-template-columns: 20% 20% 20% 20%;
 }
 
+p {
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+form {
+    grid-area: 3 / 2 / span 1 / span 2;
+    margin-left: 15vw;
+    margin-top: 2vh;
+}
+
+button {
+    margin-top: 2vh;
+    margin-left: 28vw;
+}
