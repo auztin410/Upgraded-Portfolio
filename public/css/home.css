@@ -1,3 +1,7 @@
+body {
+    background-color: whitesmoke;
+}
+
 #grid-container {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
@@ -13,9 +17,21 @@ form {
     grid-area: 3 / 2 / span 1 / span 2;
     margin-left: 15vw;
     margin-top: 2vh;
+    
 }
 
 button {
     margin-top: 2vh;
     margin-left: 28vw;
+}
+
+#display_projects {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    border: 3px;
+    border-style: inset;
+    background-color: #5d5c61;
+    border-color: #b0a295;
+    height: 40vh;
 }
